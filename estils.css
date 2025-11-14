@@ -77,7 +77,7 @@ a {
 }
 
 .btn-buy-header {
-    background-color: #0071e3;
+    background-color: #ff6a00;
     color: white !important;
     padding: 8px 16px;
     border-radius: 20px;
@@ -137,6 +137,13 @@ a {
     background: linear-gradient(180deg, #f5f5f7 0%, #ffffff 100%);
 }
 
+.hero-description {
+    max-width: 590px;      /* reduce el ancho del texto */
+    margin: 0 auto;        /* lo centra horizontalmente */
+    text-align: center;    /* mantiene el texto centrado */
+    line-height: 1.5;      /* opcional: mejora la lectura */
+}
+
 .hero-content {
     max-width: 800px;
     margin-bottom: 60px;
@@ -159,8 +166,8 @@ a {
 
 .btn-primary {
     display: inline-block;
-    background-color: #0071e3;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(255, 94, 0);
     padding: 14px 32px;
     border-radius: 24px;
     font-size: 17px;
@@ -169,9 +176,9 @@ a {
 }
 
 .btn-primary:hover {
-    background-color: #0077ed;
+    background-color: #ffffff;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 113, 227, 0.3);
+    box-shadow: 0 4px 12px rgb(255, 94, 0);
 }
 
 .hero-image {
@@ -183,7 +190,7 @@ a {
     width: 100%;
     height: auto;
     border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 20px 60px rgba(242, 13, 13, 0.15);
 }
 
 /* FEATURES GRID */
