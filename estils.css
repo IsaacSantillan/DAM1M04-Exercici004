@@ -48,7 +48,7 @@ a {
 .header-top-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .logo {
@@ -99,9 +99,10 @@ a {
 }
 
 .main-nav {
-    display: flex;
-    gap: 32px;
-    padding: 16px 0;
+    display: inline-flex;
+    gap: 30px;
+    padding: 10px 0;
+    margin: auto;
 }
 
 .nav-item {
@@ -270,7 +271,7 @@ a {
 /* RAW SECTION */
 .raw-section {
     padding: 80px 0;
-    background-color: #f5f5f7;
+    background-color: #000000;
 }
 
 .content-split {
@@ -292,7 +293,7 @@ a {
     font-weight: 700;
     margin-bottom: 24px;
     letter-spacing: -0.02em;
-    color: #1d1d1f;
+    color: #ffffff;
 }
 
 .content-text p {
@@ -338,8 +339,8 @@ a {
 /* ML TOOLS SECTION */
 .ml-tools-section {
     padding: 100px 0;
-    background-color: #1d1d1f;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 .section-title-center {
@@ -351,7 +352,7 @@ a {
 }
 
 .ml-tools-section .section-title-center {
-    color: #ffffff;
+    color: #040404;
 }
 
 .tools-grid {
@@ -389,12 +390,12 @@ a {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 12px;
-    color: #ffffff;
+    color: #8a7f7f;
 }
 
 .tool-card p {
     font-size: 17px;
-    color: #a1a1a6;
+    color: #09090a;
     line-height: 1.5;
 }
 
@@ -412,16 +413,16 @@ a {
 
 /* ADJUSTMENTS SECTION */
 .adjustments-section {
-    padding: 100px 0;
+    padding: 100px 50;
     background-color: #ffffff;
 }
 
 .section-description {
     text-align: center;
     font-size: 21px;
-    color: #6e6e73;
+    color: #000000;
     margin-bottom: 60px;
-    max-width: 800px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -430,13 +431,13 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    margin-bottom: 40px;
-    justify-content: center;
+    margin-bottom: 5px;
+    justify-content: auto;
 }
 
 .adjustment-item {
-    background-color: #f5f5f7;
-    padding: 16px 24px;
+    background-color: #dfdfeb;
+    padding: 100px 100px;
     border-radius: 20px;
     font-size: 17px;
     font-weight: 500;
