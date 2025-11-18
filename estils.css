@@ -140,7 +140,7 @@ a {
 
 .hero-description {
     max-width: 590px;      /* reduce el ancho del texto */
-    margin: 0 auto;        /* lo centra horizontalmente */
+    margin: 40px auto 0;   /* centrado horizontal, margen superior añadido */
     text-align: center;    /* mantiene el texto centrado */
     line-height: 1.5;      /* opcional: mejora la lectura */
 }
@@ -150,20 +150,6 @@ a {
     margin-bottom: 60px;
 }
 
-.hero-title {
-    font-size: 64px;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    margin-bottom: 24px;
-    color: #1d1d1f;
-}
-
-.hero-subtitle {
-    font-size: 28px;
-    font-weight: 400;
-    color: #6e6e73;
-    margin-bottom: 32px;
-}
 
 .btn-primary {
     display: inline-block;
@@ -245,28 +231,7 @@ a {
     line-height: 1.5;
 }
 
-.feature-icon {
-    width: 100%;
-    height: 250px;
-    margin: 0 auto 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 20px;
-}
 
-.feature-icon img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    transition: transform 0.3s ease;
-}
-
-.feature-card:hover .feature-icon img {
-    transform: scale(1.05);
-}
 
 /* RAW SECTION */
 .raw-section {
@@ -573,13 +538,7 @@ a {
 
 /* RESPONSIVE */
 @media (max-width: 1024px) {
-    .hero-title {
-        font-size: 48px;
-    }
-
-    .hero-subtitle {
-        font-size: 24px;
-    }
+    
 
     .hero {
         padding: 60px 20px 40px;
@@ -648,10 +607,7 @@ a {
         padding: 40px 20px 30px;
     }
 
-    .hero-title {
-        font-size: 36px;
-        margin-bottom: 16px;
-    }
+    
 
     .hero-content {
         margin-bottom: 40px;
@@ -701,8 +657,8 @@ a {
         font-size: 16px;
     }
 
-    .feature-image,
-    .feature-icon {
+    
+    .feature-image {
         height: 200px;
         margin-bottom: 20px;
     }
@@ -814,14 +770,7 @@ a {
 }
 
 @media (max-width: 480px) {
-    /* Extra petits - telèfons */
-    .hero-title {
-        font-size: 28px;
-    }
-
-    .hero-subtitle {
-        font-size: 18px;
-    }
+    
 
     .section-title-center,
     .content-text h2 {
